@@ -18,6 +18,7 @@ public class TransactionResponseValidator {
     public boolean receiveSuccessResponse(Map<String, String> request) throws Exception {
 
         String trxId = request.get("tran_id");
+
         /**
          *Get your AMOUNT and Currency FROM DB to initiate this Transaction
          */

@@ -12,12 +12,12 @@ import java.util.Map;
 public class PaymentService {
 
 
-    private String storeId = "codep66d6f3377b488";
-    private String storePass = "codep66d6f3377b488@ssl";
-    private boolean testMode = true;
+//    private String storeId = "codep66d6f3377b488";
+//    private String storePass = "codep66d6f3377b488@ssl";
+//    private boolean testMode = true;
 
     public String initiatePayment() throws Exception {
-        SSLCommerz sslCommerz = new SSLCommerz(storeId, storePass, testMode);
+//        SSLCommerz sslCommerz = new SSLCommerz(storeId, storePass, testMode);
         TransactionInitiator initiator = new TransactionInitiator();
         return initiator.initTrnxnRequest();
     }
